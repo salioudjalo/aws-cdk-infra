@@ -1,14 +1,40 @@
-# Welcome to your CDK TypeScript project
+# AWS CDK Infrastructure
 
-This is a blank project for CDK development with TypeScript.
+Infrastructure components and patterns built with AWS CDK (TypeScript).
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+## Stack
 
-## Useful commands
+- AWS CDK (TypeScript)
+- AWS CloudFormation
+- Node.js
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `npx cdk deploy`  deploy this stack to your default AWS account/region
-* `npx cdk diff`    compare deployed stack with current state
-* `npx cdk synth`   emits the synthesized CloudFormation template
+## Repository Structure
+
+bin/ Entry point of the CDK application
+lib/ Infrastructure stack definitions
+test/ Unit tests
+
+## Useful Commands
+
+Build the project:
+`npm run build`
+Synthesize the CloudFormation template:
+`npx cdk synth`
+Deploy the stack to AWS:
+`npx cdk deploy`
+See infrastructure changes before deployment:
+`npx cdk diff`
+
+## Purpose
+
+This repository contains infrastructure patterns including:
+
+- secure S3 buckets
+- infrastructure modules
+- reusable stack components
+- AWS service integrations
+
+## Author
+
+Saliou Djalo  
+Cloud / DevOps Engineer

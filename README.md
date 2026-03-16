@@ -10,19 +10,19 @@ Infrastructure components and patterns built with AWS CDK (TypeScript).
 
 ## Repository Structure
 
-bin/ Entry point of the CDK application
-lib/ Infrastructure stack definitions
-test/ Unit tests
+- **bin/** – Entry point of the CDK application  
+- **lib/** – Infrastructure stack definitions  
+- **test/** – Unit tests
 
 ## Useful Commands
 
-Build the project:
+- **Build the project**
 `npm run build`
-Synthesize the CloudFormation template:
+- **Synthesize the CloudFormation template**
 `npx cdk synth`
-Deploy the stack to AWS:
+- **Deploy the stack to AWS**
 `npx cdk deploy`
-See infrastructure changes before deployment:
+- **See infrastructure changes before deployment**
 `npx cdk diff`
 
 ## Purpose
